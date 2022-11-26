@@ -1,9 +1,9 @@
-﻿using System;
+﻿namespace Homework_1;
 
 public class Task1_1
 {
-	public Task1_1()
-	{
+    public Task1_1()
+    {
         for (int i = 1; i <= 9; i++)
         {
             for (int j = i+1; j <= 9; j++)

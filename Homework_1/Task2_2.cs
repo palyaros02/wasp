@@ -1,4 +1,6 @@
-﻿public class Task2_2
+﻿namespace Homework_1;
+
+public class Task2_2
 {
     public static int IntToBinary(int n)
     {
@@ -24,9 +26,9 @@
     public Task2_2()
     {
         Console.Write("Введите n: ");
-        int n = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine()!);
         Console.Write("Введите m: ");
-        int m = int.Parse(Console.ReadLine());
+        int m = int.Parse(Console.ReadLine()!);
 
         int s = n + m;
         
@@ -47,4 +49,3 @@
         Console.WriteLine(s);
     }
 }
-

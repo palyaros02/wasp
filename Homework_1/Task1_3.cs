@@ -1,4 +1,6 @@
-﻿public class Task1_3
+﻿namespace Homework_1;
+
+public class Task1_3
 {    private static bool IsPointInTriangle(int x, int y, int x1, int y1, int x2, int y2, int x3, int y3)
     {
         bool isInside;
@@ -24,17 +26,17 @@
         int x3, y3 = 0;
 
         Console.Write("Координаты точки 1 (через пробел): ");
-        input = Console.ReadLine().Split();
+        input = Console.ReadLine()!.Split();
         x1 = int.Parse(input[0]);
         y1 = int.Parse(input[1]);
 
         Console.Write("Координаты точки 2 (через пробел): ");
-        input = Console.ReadLine().Split();
+        input = Console.ReadLine()!.Split();
         x2 = int.Parse(input[0]);
         y2 = int.Parse(input[1]);
 
         Console.Write("Координаты точки 3 (через пробел): ");
-        input = Console.ReadLine().Split();
+        input = Console.ReadLine()!.Split();
         x3 = int.Parse(input[0]);
         y3 = int.Parse(input[1]);
 
@@ -50,4 +52,3 @@
         }
     }
 }
-

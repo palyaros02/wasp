@@ -1,9 +1,11 @@
-﻿public class Task2_4
+﻿namespace Homework_1;
+
+public class Task2_4
 {
     public Task2_4()
     {
         Console.Write("Введите число типа long: ");
-        long result = long.Parse(Console.ReadLine());
+        long result = long.Parse(Console.ReadLine()!);
         
         short d = (short)(result >> 16 *3 );
         short c = (short)(result << 16 >> 16 * 3);
@@ -13,4 +15,3 @@
         Console.WriteLine($"Результат распаковки: {a}, {b}, {c}, {d}");
     }
 }
-
