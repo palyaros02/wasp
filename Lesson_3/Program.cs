@@ -3,7 +3,7 @@ using WaspTutorial;
 
 // ООП
 
-namespace Lesson_2
+namespace Lesson_3
 {
     internal class Program
     {
